@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
 .logo {
@@ -11,7 +12,17 @@
     width: 250px;
 }
 
-section{
+nav {
     border: 1px solid #000000;
     margin-bottom: 5px;
+
+}
+
+section {
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+}
+
+footer {
+    border: 1px solid #000000;
 }
