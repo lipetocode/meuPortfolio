@@ -37,7 +37,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     font-size: 30px;
     color: #EDCF8E;
 }
@@ -65,12 +65,26 @@ section li {
 }
 
 section li a {
+    width: auto;
     display: block;
-    position: relative;
     margin: 0 auto;
+    text-align: center;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+.topo {
+    background: #86DEB7;
+    border: 1px solid #5BAA86;
+    border-radius: 30px;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-bottom: 5px;
 }
 
 footer {
@@ -101,7 +115,7 @@ footer {
         position: relative;
         margin: 0 auto;
         font-size: 15px;
-        top: 150px;
+        top: 155px;
     }
 
     nav a:hover {
@@ -113,10 +127,23 @@ footer {
         font-size: 15px;
     }
 
-    section img{
-        display: inline;
-        position: relative;
+    h1 {
+        font-size: 18px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    section li a {
+        font-size: 15px;
+        font-weight: 400;
+        position: static;
         margin: 0 auto;
-        align-items: center;
+    }
+
+    section img {
+        display: block;
+        position: relative;
+        padding: 2px;
+        margin: 0 auto;
     }
 }
