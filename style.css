@@ -7,13 +7,15 @@
     font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
+html {
+    background: #3D5A6C;
+}
+
 .logo {
     border-radius: 100%;
     width: 250px;
     display: inline-block;
     margin: 0 auto;
-    position: relative;
-    left: 50px;
 }
 
 nav {
@@ -35,6 +37,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+    font-size: 30px;
+    color: #EDCF8E;
+}
+
 section {
     border: 1px solid #000000;
     width: 100%;
@@ -43,11 +50,73 @@ section {
     background: #86DEB7;
 }
 
+h1 {
+    display: block;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
 section li {
     display: inline-block;
     margin: 0 auto;
+    text-align: center;
+}
+
+section li a {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 footer {
     border: 1px solid #000000;
+    background: #86DEB7;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        height: 35vh;
+    }
+
+    .logo {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    nav {
+        margin-bottom: 15px;
+    }
+
+    nav a {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        font-size: 15px;
+        top: 150px;
+    }
+
+    nav a:hover {
+        font-size: 18px;
+    }
+
+    section li {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    section img{
+        display: inline;
+        position: relative;
+        margin: 0 auto;
+        align-items: center;
+    }
 }
